@@ -7,7 +7,7 @@ namespace Hackathon2024
 
     public class DataLayer
     {
-        public static string connString = "Server=tcp:mtbhackathon2024.database.windows.net,1433;Initial Catalog=FitIn;Persist Security Info=False;User ID=fitinadmin;Password=Hackathon2024;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;";
+        public static string connString = "Server=tcp:mtbhackathon2024.database.windows.net,1433;Initial Catalog=FitIn;Persist Security Info=False;User ID={REDACTED};Password={REDACTED};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;";
 
 
         #region "Candidate Operations"
